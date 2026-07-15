@@ -1,0 +1,90 @@
+{
+  "_comment": "GENERIC data-model template for a '<Company> - LinkedIn Analysis' document. This is the structure the analysis app should populate for ANY company. No company-specific values are stored here; every string is an empty placeholder and every list is empty. Category names under investor_appeal_score are the fixed TEN Capital scoring rubric (framework, not data) and are intentionally retained.",
+
+  "company_name": "",
+  "document_title": "{company_name} – LinkedIn Analysis",
+  "footer_title": "{company_name} – LinkedIn page Analysis",
+  "analysis_date": "",
+  "compiled_by": "TEN Capital Network",
+  "company_logo_path": "",
+
+  "executive_summary": {
+    "positioning_paragraph": "",
+    "investor_readiness_paragraph": ""
+  },
+
+  "investor_appeal_score": {
+    "scale_max": 10,
+    "overall_score": null,
+    "categories": [
+      { "category": "Credibility", "score": null },
+      { "category": "Leadership Visibility", "score": null },
+      { "category": "Technology Differentiation", "score": null },
+      { "category": "Commercial Proof", "score": null },
+      { "category": "Investor Storytelling", "score": null },
+      { "category": "Thought Leadership", "score": null },
+      { "category": "Social Proof", "score": null }
+    ]
+  },
+
+  "strengths": {
+    "section_title": "Strengths – What Builds Investor Confidence",
+    "items": [
+      {
+        "heading": "",
+        "narrative": "",
+        "signals": []
+      }
+    ]
+  },
+
+  "weaknesses": {
+    "section_title": "Weaknesses or Gaps – Potential Investor Concerns",
+    "items": [
+      {
+        "heading": "",
+        "narrative": "",
+        "points": []
+      }
+    ],
+    "traction_visibility_checklist": {
+      "table_title": "Traction Visibility",
+      "columns": ["Investor Question", "Visible?"],
+      "rows": [
+        { "investor_question": "", "visible": false }
+      ]
+    }
+  },
+
+  "recommendations": {
+    "section_title": "Specific Recommendations – How to Improve Investor Appeal",
+    "items": [
+      {
+        "id": "",
+        "title": "",
+        "intro": "",
+        "current": "",
+        "recommended": "",
+        "communicates": [],
+        "bullet_groups": [
+          { "subheading": "", "bullets": [] }
+        ],
+        "bullets": [],
+        "before_after_examples": [
+          { "context": "", "instead_of": "", "use": "" }
+        ],
+        "table": {
+          "columns": [],
+          "rows": []
+        },
+        "example_line": ""
+      }
+    ]
+  },
+
+  "final_assessment": {
+    "section_title": "Final Assessment",
+    "foundational_strengths_paragraph": "",
+    "primary_weakness_paragraph": ""
+  }
+}
